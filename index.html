@@ -7,8 +7,8 @@
 <html>
 <style>
 	.circular_image {
-  width: 150px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
   border-radius: 0%;
   overflow: hidden;
   background-color: blue;
@@ -22,6 +22,20 @@
   display:inline-block;
   vertical-align:middle;
 }
+
+	.background_image {
+		background-color: #d7cdcd;
+  		border: 1px solid #ddd;
+  		border-radius: 8px;
+  		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  		padding: 2px;
+  		max-width: 1400px;
+  		text-align: center;
+		height: 150px;
+		 
+}
+
+	
 </style>
 	<head>
 		<title>Srushti Desai</title>
@@ -39,7 +53,7 @@
 					
 					<div id="intro">
 						<a href="#"><img class="circular_image" src="images/img11.jpg" alt="" /></a>
-						<h1>Srushti Desai</h1>
+						<h2>Srushti Desai</h2>
 						<i>The only constant in the technology industry is change.</i> - Marc Benioff <br>
 						<p>I am a curious person who wants to explore and keep on learning new things.</p> 
 						<ul class="actions">
@@ -53,7 +67,8 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul class="links">
-							<li class="active"><a href="index.html">Home</a></li>
+							<li class="active"><a href="#section1">Home</a></li>
+							
 							
 						</ul>
 						<ul class="icons">
@@ -62,47 +77,68 @@
 						</ul>
 					</nav>
 
+
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
+							<article class="post featured" id="section1">
 
 								
 								<ul class="actions special">
 									
 								</ul>
 								<header class="major">
-									<p>Currently pursuing a <b>Master of Science degree in Information Systems from Northeastern University, Boston.</b><br> 
+									<p>
 										Computer engineer with motivation to work hard and accomplish industry valuable goals.<br>
 										I am an <b>enthusiastic Data Engineer, Data Analyst, Data Visualization and Business Intelligence </b> individual possessing potential to learn new technologies and adapt to new environment.<br>									
 										Determined towards expanding my skillsets along with gaining hands-on experience and to work towards betterment of the society.<br><br>
-										
 										<br>
 										<b><h3>Skills</h3></b><br>
 										<b>Source Control:</b>  Azure DevOps, Visual Studio Code, GitHub <br>
- 										<b>Languages:</b>  SQL, PySpark, Spark SQL, Python, R, SOQL <br>
- 										<b>Databases:</b> MS SQL, Oracle, MySQL, PostgreSQL, Google BigQuery <br>
- 										<b>Database Management Tools:</b>  SSMS, MySQL Workbench, Azure Data Studio, Oracle SQL Developer <br>
- 										<b>Data Integration tools:</b>  Azure Synapse Analytics, Boomi, Alteryx, Talend <br>
+										 <b>Languages:</b>  SQL, PySpark, Spark SQL, Python, R, SOQL <br>
+										 <b>Databases:</b> MS SQL, Oracle, MySQL, PostgreSQL, Google BigQuery <br>
+										 <b>Database Management Tools:</b>  SSMS, MySQL Workbench, Azure Data Studio, Oracle SQL Developer <br>
+										 <b>Data Integration tools:</b>  Azure Synapse Analytics, Boomi, Alteryx, Talend <br>
 										<b>Dimension Modeling & Architecture Tools:</b>  ER/Data Studio, Navicat <br>
- 										<b>Data Visualization Tools:</b>  Tableau, MS PowerBI, Advanced Excel <br>
- 										<b>Cloud Technologies:</b> Microsoft Azure, GCP <br>
- 										<b>Business Skills:</b>  Requirement Gathering, Data analysis, Critical Thinking, Problem Solving <br>
- 										<b>Certifications:</b>  Google Data Analytics Specialization <br>
+										 <b>Data Visualization Tools:</b>  Tableau, MS PowerBI, Advanced Excel <br>
+										 <b>Cloud Technologies:</b> Microsoft Azure, GCP <br>
+										 <b>Business Skills:</b>  Requirement Gathering, Data analysis, Critical Thinking, Problem Solving <br>
+										 <b>Certifications:</b>  Google Data Analytics Specialization <br>
 									</p>
+
+									
 								</header>
 								
 							</article>
 
+							<!--intro-->
+
+						
+							
+
+							<div class="background_image">
+							<article class="post featured" id="section2">
+
+								
+									<p>
+										<b><h3>Personal Projects</h3></b><br>
+									
+									</p>
+							</article>
+							</div>
+
 						<!-- Posts -->
+				
 							<section class="posts">
+								
 								<article>
+									
 									<header>
 									
-										<h3>New York City (NYC) Motor Vehicles (MV) Collisions Data Engineering Project</h3>
+										<h3>New York City Motor Vehicles Collisions Data Engineering Project</h3>
 									</header>
-									<a  class="image fit"><img src="images/Car.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/collision.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Utilized New York City (NYC) Motor Vehicles (MV) Collisions dataset from Google Big Query and NYC Opendata source to Extract and load into various dimensions and Facts to analyse details on the crash event which includes informations of crashes, vehicles and people involved during the collision.
 										</p>
@@ -116,9 +152,9 @@
 								<article>
 									<header>
 									
-										<h3>Iowa Liquor Sales Data Engineering Project</h3>
+										<h3>Iowa Liquor Sales Data Engineering Project</h3> 
 									</header>
-									<a  class="image fit"><img src="images/Iowa.png" alt="" width="300" 
+									<a  class="image fit"><img src="images/iowa1.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Utilized IOWA Liqiour Sales Public dataset from Google Big Query to Extract and load into various dimensions and Facts to analyse sales of liquor in IOWA over last 10 years distributed by Type and catgory of liqiour and also took into consideration the vendors and distributors of the liqiour.
 										</p>
@@ -134,7 +170,7 @@
 									
 										<h3>Food Inspection Data Engineering Project (Dallas and Chicago)</h3>
 									</header>
-									<a  class="image fit"><img src="images/food.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/inspection.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Utilized Food Inspection Open Data (Dallas and Chicago) to analyse actionable insights about violations over a period of time in Food places and kind of violations that occur and actions taken by the authority on the same.
 										</p>
@@ -148,9 +184,9 @@
 								<article>
 									<header>
 									
-										<h3>Rental Property Management System</h3>
+										<h3>Rental Property Management System DBMS Project</h3>
 									</header>
-									<a  class="image fit"><img src="images/img1.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/ER.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Streamlined the Rental Management process in ORACLE SQL DEVELOPER through realistic business 
 										logic.
@@ -165,7 +201,7 @@
 										<h3>E-Commerce Customer Segmentation
 										</h3>
 									</header>
-									<a  class="image fit"><img src="images/img2.png" alt="" width="300" 
+									<a  class="image fit"><img src="images/Dashboard 1-2.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Performed data wrangling, conducted Exploratory data analysis, segmented customers through RFM analysis using R and built Tableau dashboard visualizing data trends, depicting critical KPIs and recommendations. </p>
 									<ul class="actions special">
@@ -177,7 +213,7 @@
 										
 										<h3>Spotify Recommendation System </h3>
 									</header>
-									<a  class="image fit"><img src="images/img3.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/spotify.png" alt="" width="300" 
 										height="300"  /></a>
 									<p>Generated song recommendations for a specific user's playlist using Content Based Filtering algorithm. </p>
 									<ul class="actions special">
@@ -190,7 +226,7 @@
 										<h3>Bike Share Company Analysis
 										</h3>
 									</header>
-									<a  class="image fit"><img src="images/img5.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/Dashboard 1-3.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Analysed the dataset of bike sharing company (Cyclist) and designed a new marketing strategy to convert casual riders into annual members and providing recommendations which are backed up with compelling data insights and professional data visualizations using Tableau.
 
@@ -205,7 +241,7 @@
 										<h3>COVID Analysis
 										</h3>
 									</header>
-									<a  class="image fit"><img src="images/img6.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/Dashboard 1-4.png" alt="" width="300" 
 										height="300" /></a>
 									<p>Analyzing and exploring the global COVID 19 dataset using SQL and visualizing the important insights on Tableau dashboard.</p>
 									<ul class="actions special">
@@ -218,7 +254,7 @@
 										<h3>Movie Correlation in Python
 										</h3>
 									</header>
-									<a class="image fit"><img src="images/img7.jpg" alt="" width="300" 
+									<a class="image fit"><img src="images/movie.png" alt="" width="300" 
 										height="300"  /></a>
 									<p>Performed data cleaning and plotted scaater and regression plots to fing correlation between different variables to find what variables affect the gross revenue from movies using Python.</p>
 									<ul class="actions special">
@@ -231,7 +267,7 @@
 										<h3>Nashville Housing Data Cleaning
 										</h3>
 									</header>
-									<a  class="image fit"><img src="images/img8.jpg" alt="" width="300" 
+									<a  class="image fit"><img src="images/housing.png" alt="" width="300" 
 										height="300"  /></a>
 									<p>Worked with raw dataset and transformed it using SQL to more usuable form for analysis.</p>
 									<ul class="actions special">
@@ -240,12 +276,15 @@
 								</article>
 							</section>
 
+							
 						<!-- Footer -->
 							<footer>
 								
 							</footer>
 
 					</div>
+
+			
 
 				<!-- Footer -->
 					<footer id="footer">
